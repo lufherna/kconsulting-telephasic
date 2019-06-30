@@ -72,6 +72,61 @@ input, select, textarea {
 	appearance: none;
 }
 
+/*============ MY custom CSS LFH ===========
+======================================================================= */
+
+/* About Us section*/
+#aboutUs > p {
+	color: black;
+}
+
+#aboutUs > h2 {
+	text-align: center;
+}
+
+#aboutUs .button {
+	background: blue;
+	border-color: rgba(255, 255, 255, 0);
+	color: #f08c89;
+	font-size: 1.25em;
+}
+
+#aboutUs .button:hover {
+	border-color: rgba(255, 255, 255, 0.75);
+	background-color: rgba(255, 255, 255, 0.15);
+	color: #fff;
+}
+
+.meetingTeam {
+	text-align: center;
+}
+
+#aboutUs a {
+	color: #fff;
+	border-color: #fff;
+	border-color: rgba(255, 255, 255, 0.5);
+}
+
+#aboutUs a:hover {
+	border-color: rgba(255, 255, 255, 0);
+}
+
+
+/* Meet the team section*/
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================== 
+====================================================================*/
+
 /* Basic */
 
 	@-ms-viewport {
@@ -2095,6 +2150,8 @@ input, select, textarea {
 	#header-wrapper {
 		position: relative;
 		padding: 4em 0 2em 0;
+/*		background-image: url("../../images/Logo.jpg");
+		background-repeat: no-repeat;*/
 		background-image: url("images/header.svg");
 		background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
 		background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
@@ -2209,7 +2266,7 @@ input, select, textarea {
 				}
 
 				#nav > ul > li.break {
-					margin-left: 20em;
+					margin-left: 22em;
 				}
 
 	.dropotron {
